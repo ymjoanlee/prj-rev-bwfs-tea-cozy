@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+/* Header */
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+header span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header a {
+  color: seashell;
+}
+
+/*Main Content*/
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Main Content: Mission Section */
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+}
+
+.mission-content {
+  background-color: black;
+}
+
+/* Main Content: Tea of the Month Section */
+#tea {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span {
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* Main Content: Locations Section */
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  opacity: 1;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 260px;
+  width: 280px;
+  padding: 10px;
+  margin: 0 20px 0 20px;
+  justify-content: center;
+}
+
+/* Contact Section */
+#contact {
+  height: 200px;
+}
+
+/* Footer */
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
